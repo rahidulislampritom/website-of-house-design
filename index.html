@@ -24,30 +24,104 @@
             theme: {
                 extend: {
                     colors: {
-                        SlimeGreen:'#ABEF5F',            
-                        hColor:'#ABEF5F',
-                        pColor:'#494949',
+                        SlimeGreen: '#ABEF5F',
+                        hColor: '#ABEF5F',
+                        pColor: '#494949',
                         PinkFlare: '#E1C0C8',
                         Goldenrod: '#EFDA6E',
                         AquaIsland: '#da373d',
                         PeriwinkleBlue: '#da373d',
-                                  },
+                    },
                     fontFamily: {
                         manrope: '"Manrope", "serif"'
                     },
                     backgroundImage: {
-                        nextBg:"url(./images/bg.jpg)"
+                        nextBg: "url(./images/bg.jpg)"
                     },
-                    
+
                 }
             }
         }
     </script>
 </head>
 
-<body>
+<body class="font-manrope w-full mx-auto">
+    <header class="w-full bd-gratent-to-l from-[#FFFFFF] to-[#FFFFFF]">
+        <nav class="max-w-screen-xl mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
 
-</div>
+                    <div class="flex justify-center items-center -rotate-45 w-8 h-8 bg-[#ABEF5F] rounded-full mr-2">
+                        <a><i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                    <a class="text-[#212121] text-2xl sm:text-3xl font-extrabold ">Rinterio</a>
+
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-[#494949] text-base font-extrabold">Home</a></li>
+                        <li><a class="text-[#737373] text-base font-400">Services</a></li>
+                        <li><a class="text-[#737373] text-base font-400">Portfolio</a></li>
+                        <li><a class="text-[#737373] text-base font-400">Blogs</a></li>
+                        <li><a class="text-[#737373] text-base font-400">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+
+
+                    <div class="lg:visible invisible flex justify-center items-center gap-2">
+                        <div class="flex justify-center items-center gap-3">
+                            <div
+                                class="flex justify-center items-center  w-8 h-8 bg-[#f5f3f3] rounded-full p-5  text-xl">
+                                <a><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                            
+                            <div
+                                class="flex justify-center items-center  w-8 h-8 bg-[#f5f3f3] rounded-full p-5  text-xl">
+                                <a><i class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+
+
+                        </div>
+                        <a class="btn bg-[#ABEF5F] rounded-full h font-extrabold">Book Consult <div
+                                class="flex justify-center items-center -rotate-45 w-8 h-8 bg-black rounded-full text-white">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </div></a>
+                    </div>
+
+
+
+
+
+                    <!-- --------- -->
+
+                    <div class="dropdown ">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+
+                            <div
+                                class="flex justify-center items-center  w-8 h-8 bg-[#f3ebeb] rounded-full p-7  text-xl">
+                                <a><i class="fa-solid fa-bars"></i></a>
+                            </div>
+
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3  p-2 shadow mr-16 overflow-hidden right-0">
+                                <li><a class="text-[#494949] text-base font-extrabold">Home</a></li>
+                                <li><a class="text-[#737373] text-base font-400">Services</a></li>
+                                <li><a class="text-[#737373] text-base font-400">Portfolio</a></li>
+                                <li><a class="text-[#737373] text-base font-400">Blogs</a></li>
+                                <li><a class="text-[#737373] text-base font-400">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>
