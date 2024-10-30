@@ -48,10 +48,10 @@
 <body class="font-manrope w-full mx-auto">
 
     <!-- header section -->
-    <header class="w-full bg-gratent-to-l from-[#FFFFFF] to-[#FFFFFF]">
+    <header class="w-full bg-gratent-to-l from-[#FFFFFF] to-[#FFFFFF] ">
 
         <!-- nav part -->
-        <nav class="max-w-screen-xl mx-auto">
+        <nav class="max-w-screen-xl mx-auto p-3 lg:p-0">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
 
@@ -124,16 +124,16 @@
             </div>
         </nav>
         <!-- banner-part -->
-        <section class="lg:max-w-screen-xl mx-auto">
-            <div class="card bg-base-100 ">
+        <section class="lg:max-w-screen-xl mx-auto pb-8 lg:pb-20 p-3 lg:p-0 ">
+            <div class="card ">
 
                 <figure class="px-10 pt-10">
                     <img src="./images/banner.png" alt="Shoes" class="rounded-xl" />
                 </figure>
 
-                <div class="card-body items-center text-center">
+                <div class="card-body items-center text-center p-0">
 
-                    <h2 class="card-title w-full  text-[#212121] lg:text-7xl text-3xl font-extrabold my-6">A barn house
+                    <h2 class="card-title w-full  text-[#212121] lg:text-6xl text-3xl font-extrabold my-6">A barn house
                         of this design has a striking
                         appearance</h2>
                     <p class="w-full lg:w-11/12 mx-auto text-[#494949] text-base font-medium mb-8 ">The barn house
@@ -153,20 +153,22 @@
     <main>
 
         <!-- design thoughtful part -->
-        <section class="min-w-full lg:w-full bg-[#F4F4F4] py-10 lg:py-24">
+        <section class="w-full  bg-[#F4F4F4]  lg:py-24 p-3 lg:p-0">
 
-            <div class="max-w-full lg:max-w-screen-xl mx-auto">
-                <div>
+            <div class="w-full lg:max-w-screen-xl mx-auto  mb-14">
+                <!-- img+button -->
+                <div class="lg:visible invisible">
                     <img src="./images/Vector.png" alt="">
                 </div>
-                <button class="btn bg-[#FFFFFF] text-[#494949] font-bold rounded-full border-none ml-16"><i
+                <button
+                    class="btn bg-[#FFFFFF] text-[#494949] font-bold rounded-full border-none lg:ml-16  ml-[88px]  mb-8 lg:mb-0"><i
                         class="fa-solid fa-arrow-right-long"></i>About Us</button>
-
+                <!-- img=info -->
                 <div class="hero">
 
-                    <div class="hero-content flex flex-col lg:flex-rows lg:flex-row-reverse  lg:ml-8  ">
+                    <div class="hero-content flex flex-col lg:flex-rows lg:flex-row-reverse  lg:ml-8 p-0  ">
                         <!-- img -->
-                        <div class="w-full lg:w-1/2 mx-auto "> <img src="./images/Rectangle.png"
+                        <div class="w-full lg:w-1/2 mx-auto lg:order-1 order-2 "> <img src="./images/Rectangle.png"
                                 class="rounded-lg shadow-2xl" />
                         </div>
                         <!-- info -->
@@ -208,20 +210,20 @@
             </div>
 
             <!-- our works process part -->
-            <section class="my-12 lg:my-24 p-3 lg:p-0">
+            <section class="my-4 lg:my-0 p-3 lg:p-0 lg:max-w-screen-xl mx-auto ">
                 <div class="flex flex-col justify-center items-center gap-4 mb-8">
 
                     <button class="btn bg-[#FFFFFF] text-[#494949] font-bold rounded-full border-none "><i
                             class="fa-solid fa-arrow-right-long"></i>How we works</button>
                     <h2 class="text-[#212121] text-2xl lg:text-4xl font-bold text-center">Our Works Process</h2>
-                    <p class="lg:w-6/12 text-center text-[#494949] text-base font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    <p class="lg:w-6/12 text-center text-[#494949] text-base font-medium">The barn house captivates with
+                        its blend of rustic charm and modern sophistication, featuring
                         weathered wood, sleek metal accents.</p>
 
                 </div>
-                <div
-                    class="max-w-full lg:max-w-screen-xl mx-auto  grid grid-cols-1 lg:grid-cols-4 lg:w-9/12 gap-2 lg:gap-3">
+                <div class="grid grid-cols-1 lg:grid-cols-4 gap-2 lg:gap-3 lg:mx-6">
                     <div class="card bg-PinkFlare text-primary-content">
-                        <div class="p-6">
+                        <div class="p-6 py-9">
                             <div><img src="./images/concept.png " alt=""></div>
                             <div>
                                 <h2 class="card-title text-[#1C1C1C] text-xl font-extrabold my-2">Card title!</h2>
@@ -266,6 +268,26 @@
                     </div>
                 </div>
             </section>
+
+        </section>
+        <!-- let's discuss part -->
+        <section class="w-full bg-nextBg bg-no-repeat bg-cover bg-center h-96">
+
+            <div class="max-w-screen-xl mx-auto">
+                <div class="mt-0 lg:mt-2  lg:py-28 py-16 p-3 flex flex-col justify-center items-center gap-4 mb-8">
+
+                    <button class="btn bg-[#ABEF5F33] text-[#494949] font-bold rounded-full border-none "><i
+                            class="fa-solid fa-arrow-right-long"></i>Let’s Connect</button>
+                    <h2 class="text-[#212121] text-2xl lg:text-4xl font-bold text-center">Let’s Discuss Next Project
+                    </h2>
+                    <p class="lg:w-6/12 text-center text-[#494949] text-base font-medium">The barn house captivates with
+                        its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal
+                        accents.</p>
+
+                </div>
+            </div>
+
+        </section>
 
     </main>
 
